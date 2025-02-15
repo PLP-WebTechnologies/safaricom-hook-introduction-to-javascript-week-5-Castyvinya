@@ -1,0 +1,230 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d773100[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,81 @@[m
+[32m+[m[32m### **Assignment: Exploring JavaScript Fundamentals and DOM Manipulation** 🌟[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m#### **Objective:**[m
+[32m+[m[32mThis assignment aims to test your understanding of JavaScript basics, control structures, and the Document Object Model (DOM). You will demonstrate your skills by creating an interactive webpage that uses variables, data types, operators, control structures, and DOM manipulation.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### **Instructions:**[m
+[32m+[m
+[32m+[m[32m1. **Create a new HTML file** and include an external JavaScript file for your script.[m[41m  [m
+[32m+[m[32m2. Name your HTML file as `assignment.html` and your JavaScript file as `script.js`.[m[41m  [m
+[32m+[m[32m3. Follow the tasks below and ensure you structure your code for readability with proper comments.[m[41m  [m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### **Tasks:**[m
+[32m+[m
+[32m+[m[32m#### **Part 1: JavaScript Basics**[m
+[32m+[m
+[32m+[m[32m1. **Variables and Data Types**:[m
+[32m+[m[32m   - Declare variables of different types: string, number, boolean, array, and object.[m[41m  [m
+[32m+[m[32m   - Use `console.log()` to print their values and types in the browser console.[m[41m  [m
+[32m+[m
+[32m+[m[32m   **Example Output**:[m[41m  [m
+[32m+[m[32m   ```[m
+[32m+[m[32m   Name: John Doe (Type: string)[m[41m  [m
+[32m+[m[32m   Age: 25 (Type: number)[m[41m  [m
+[32m+[m[32m   Is student: true (Type: boolean)[m[41m  [m
+[32m+[m[32m   ```[m
+[32m+[m
+[32m+[m[32m2. **Operators**:[m
+[32m+[m[32m   - Write a simple calculator function that performs addition, subtraction, multiplication, and division using two numbers provided by the user (use `prompt()` for input).[m[41m  [m
+[32m+[m[32m   - Use arithmetic and comparison operators to validate user input and display appropriate messages.[m
+[32m+[m
+[32m+[m[32m   **Example Output**:[m[41m  [m
+[32m+[m[32m   ```[m
+[32m+[m[32m   Enter the first number: 10[m[41m  [m
+[32m+[m[32m   Enter the second number: 2[m[41m  [m
+[32m+[m[32m   Choose an operation (+, -, *, /): *[m[41m  [m
+[32m+[m[32m   Result: 20[m
+[32m+[m[32m   ```[m
+[32m+[m
+[32m+[m[32m3. **Functions**:[m
+[32m+[m[32m   - Create a function named `greetUser` that takes a name as a parameter and returns a greeting message. Display the message in an HTML element.[m[41m  [m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m#### **Part 2: JavaScript Control Structures**[m
+[32m+[m
+[32m+[m[32m4. **If Statements**:[m
+[32m+[m[32m   - Ask the user for their age using `prompt()`. Use an `if` statement to check if they are eligible to vote (age >= 18). Display a message indicating their eligibility in an HTML element.[m[41m  [m
+[32m+[m
+[32m+[m[32m5. **Loops**:[m
+[32m+[m[32m   - Write a loop to display numbers from 1 to 10 on the webpage. Use an ordered list (`<ol>`) to present the numbers.[m[41m  [m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m#### **Part 3: Introduction to the DOM**[m
+[32m+[m
+[32m+[m[32m6. **Creating HTML Structure**:[m
+[32m+[m[32m   - Add the following HTML elements to your webpage:[m
+[32m+[m[32m     - A heading (`<h1>`) with the text **"JavaScript Assignment"**.[m[41m  [m
+[32m+[m[32m     - A paragraph (`<p>`) with the text **"Learning JavaScript is fun!"**.[m[41m  [m
+[32m+[m[32m     - A `<div>` with an `id` of `dynamic-content`.[m[41m  [m
+[32m+[m
+[32m+[m[32m7. **Selecting and Modifying HTML Elements**:[m
+[32m+[m[32m   - Use JavaScript to:[m
+[32m+[m[32m     - Change the text of the `<h1>` element to **"JavaScript in Action!"**.[m[41m  [m
+[32m+[m[32m     - Add a new `<p>` inside the `dynamic-content` `<div>` with the text **"This content was added dynamically using JavaScript."**.[m[41m  [m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### **Tips for Success:**[m
+[32m+[m
+[32m+[m[32m- Test your code frequently to catch errors early.[m[41m  [m
+[32m+[m[32m- Use meaningful variable names and add comments to explain your logic.[m[41m  [m
+[32m+[m[32m- Have fun and get creative![m[41m  [m
+[32m+[m
+[32m+[m[32mHappy Coding! 💻✨[m[41m  [m
+[1mdiff --git a/assignment.html b/assignment.html[m
+[1mdeleted file mode 100644[m
+[1mindex 611d743..0000000[m
+[1m--- a/assignment.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,28 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="en">[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>JavaScript Assignment</title>[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-[m
+[31m-    <h1>JavaScript Assignment</h1>[m
+[31m-    <p>Learning JavaScript is fun!</p>[m
+[31m-    <div id="dynamic-content"></div>[m
+[31m-[m
+[31m-    <h2>Numbers from 1 to 10</h2>[m
+[31m-    <ol id="number-list"></ol>[m
+[31m-[m
+[31m-    <h2>Greeting Section</h2>[m
+[31m-    <p id="greeting"></p>[m
+[31m-[m
+[31m-    <h2>Voting Eligibility</h2>[m
+[31m-    <p id="vote-status"></p>[m
+[31m-    [m
+[31m-    <h2>Simple Calculator</h2>[m
+[31m-    <button onclick="calculator()">Open Calculator</button>[m
+[31m-    [m
+[31m-    <script src="script.js"></script> <!-- Link to the external JavaScript file -->[m
+[31m-</body>[m
+[31m-</html>[m
+[1mdiff --git a/script.js b/script.js[m
+[1mdeleted file mode 100644[m
+[1mindex 05acfc8..0000000[m
+[1m--- a/script.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,103 +0,0 @@[m
+[31m-// *Number 1: Data Types and Variables*[m
+[31m-[m
+[31m-let name = "Casty Wavinya"; // String[m
+[31m-let age = 19; // Number[m
+[31m-let isFemale = true; // Boolean[m
+[31m-let interests = ["coding", "networking", "travelling"]; // Array[m
+[31m-let identity = { name: "Casty", age: 19, interest: "coding" }; // Object[m
+[31m-[m
+[31m-// Print values and types in the console[m
+[31m-console.log(`Name: ${name} (Type: ${typeof name})`);[m
+[31m-console.log(`Age: ${age} (Type: ${typeof age})`);[m
+[31m-console.log(`IsFemale: ${isFemale} (Type: ${typeof isFemale})`);[m
+[31m-console.log(`Interests: ${interests} (Type: ${typeof interests})`);[m
+[31m-console.log(`Identity: ${JSON.stringify(identity)} (Type: ${typeof identity})`);[m
+[31m-[m
+[31m-[m
+[31m-// *Number 2: Simple Calculator Function*[m
+[31m-function calculator() {[m
+[31m-    let num1 = prompt("Enter the first number:");[m
+[31m-    let num2 = prompt("Enter the second number:");[m
+[31m-    let operation = prompt("Choose an operation (+, -, *, /):");[m
+[31m-[m
+[31m-    // Convert input to numbers[m
+[31m-    num1 = parseFloat(num1);[m
+[31m-    num2 = parseFloat(num2);[m
+[31m-[m
+[31m-    // Validate input[m
+[31m-    if (isNaN(num1) || isNaN(num2)) {[m
+[31m-        alert("Invalid input! Please enter valid numbers.");[m
+[31m-        return;[m
+[31m-    }[m
+[31m-[m
+[31m-    if (operation === "/" && num2 === 0) {[m
+[31m-        alert("Error: Division by zero is not allowed.");[m
+[31m-        return;[m
+[31m-    }[m
+[31m-[m
+[31m-    let result;[m
+[31m-    switch (operation) {[m
+[31m-        case "+":[m
+[31m-            result = num1 + num2;[m
+[31m-            break;[m
+[31m-        case "-":[m
+[31m-            result = num1 - num2;[m
+[31m-            break;[m
+[31m-        case "*":[m
+[31m-            result = num1 * num2;[m
+[31m-            break;[m
+[31m-        case "/":[m
+[31m-            result = num1 / num2;[m
+[31m-            break;[m
+[31m-        default:[m
+[31m-            alert("Invalid operation! Please enter +, -, *, or /.");[m
+[31m-            return;[m
+[31m-    }[m
+[31m-[m
+[31m-    alert(`Result: ${result}`);[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-// *Number 3: Greeting Function*[m
+[31m-function greetUser(name) {[m
+[31m-    return `Hello, ${name}! Welcome to JavaScript.`;[m
+[31m-}[m
+[31m-[m
+[31m-// Get user's name and display the greeting[m
+[31m-let userName = prompt("Enter your name:");[m
+[31m-if (userName) {[m
+[31m-    document.getElementById("greeting").innerText = greetUser(userName);[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-// *Number 4: Voting Eligibility Check*[m
+[31m-let userAge = prompt("Enter your age:");[m
+[31m-userAge = parseInt(userAge);[m
+[31m-[m
+[31m-if (!isNaN(userAge)) {[m
+[31m-    if (userAge >= 18) {[m
+[31m-        document.getElementById("vote-status").innerText = "You are eligible to vote!";[m
+[31m-    } else {[m
+[31m-        document.getElementById("vote-status").innerText = "You are not eligible to vote.";[m
+[31m-    }[m
+[31m-} else {[m
+[31m-    alert("Invalid input! Please enter a valid age.");[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-// *Number 5: Display Numbers 1 to 10 using a Loop*[m
+[31m-let numberList = document.getElementById("number-list");[m
+[31m-for (let i = 1; i <= 10; i++) {[m
+[31m-    let listItem = document.createElement("li");[m
+[31m-    listItem.innerText = i;[m
+[31m-    numberList.appendChild(listItem);[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-// *Number 6: DOM Manipulation*[m
+[31m-document.querySelector("h1").innerText = "JavaScript in Action!";[m
+[31m-[m
+[31m-// Adding dynamic content[m
+[31m-let newParagraph = document.createElement("p");[m
+[31m-newParagraph.innerText = "This content was added dynamically using JavaScript.";[m
+[31m-document.getElementById("dynamic-content").appendChild(newParagraph);[m
